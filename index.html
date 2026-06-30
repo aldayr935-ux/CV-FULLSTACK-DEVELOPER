@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMAR Aldayr · Fullstack Developer</title>
+    <meta
+      name="description"
+      content="Portafolio de Aldayr — Fullstack Web Developer (Next.js, TypeScript, Node.js, PostgreSQL)."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="wrap">
+        <a href="#top" class="logo"
+          ><span class="bracket">&lt;</span>Omar_Aldayr.García_Hernández<span
+            class="bracket"
+            >/&gt;</span
+          ></a
+        >
+        <div class="navlinks">
+          <a href="#stack">stack</a>
+          <a href="#projects">proyectos</a>
+          <a href="#path">trayectoria</a>
+          <a href="#contact">contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="wrap">
+        <div class="eyebrow">
+          <span class="dot"></span> DISPONIBLE PARA NUEVAS OPORTUNIDADES
+        </div>
+        <h1>
+          Construyo productos<br />web de extremo a
+          <span class="accent">extremo</span>.
+        </h1>
+        <p class="sub">
+          Soy <strong>Aldayr</strong>, desarrollador Fullstack y estudiante de
+          Ingeniería en Sistemas. Diseño, construyo y despliego aplicaciones
+          completas — del esquema de base de datos a la interfaz que usa la
+          gente.
+        </p>
+
+        <div class="terminal" data-reveal>
+          <div class="bar">
+            <span></span><span></span><span></span>
+            <div class="title">whoami.ts</div>
+          </div>
+          <pre><span class="k">const</span> developer = {
+  <span class="c">name:</span> <span class="s">"Aldayr"</span>,
+  <span class="c">role:</span> <span class="s">"Fullstack Web Developer"</span>,
+  <span class="c">stack:</span> [<span class="s">"Next.js"</span>, <span class="s">"TypeScript"</span>, <span class="s">"Node.js"</span>, <span class="s">"PostgreSQL"</span>],
+  <span class="c">studio:</span> <span class="s">"ALDACODE"</span>,
+  <span class="c">basedIn:</span> <span class="s">"Estado de México, MX"</span>,
+}<span class="cursor"></span></pre>
+        </div>
+
+        <div class="cta-row">
+          <a href="#projects" class="btn primary">Ver proyectos →</a>
+          <a href="CV OMAR ALDAYR FULLSTACK WEB DEV.pdf" class="btn ghost" download
+            >Descargar CV (PDF)</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="stack">
+      <div class="wrap">
+        <div class="tag-open">&lt;stack&gt;</div>
+        <h2 class="heading">Herramientas con las que trabajo</h2>
+        <p class="lead">
+          Un stack moderno, orientado a producto: del frontend a la base de
+          datos, pasando por despliegue e infraestructura ligera.
+        </p>
+
+        <div class="stack-grid" data-reveal>
+          <div class="stack-cat">
+            <h3>Frontend</h3>
+            <ul>
+              <li>Next.js</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="stack-cat">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js / Express</li>
+              <li>Prisma ORM</li>
+              <li>PostgreSQL</li>
+              <li>REST APIs · JWT Auth</li>
+            </ul>
+          </div>
+          <div class="stack-cat">
+            <h3>Otros lenguajes</h3>
+            <ul>
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>BeautifulSoup / Playwright</li>
+            </ul>
+          </div>
+          <div class="stack-cat">
+            <h3>Herramientas</h3>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>Vercel · Railway</li>
+              <li>Neon (Postgres)</li>
+              <li>Clerk (Auth)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tag-close">&lt;/stack&gt;</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="tag-open">&lt;projects&gt;</div>
+        <h2 class="heading">Proyectos seleccionados</h2>
+        <p class="lead">
+          Trabajo para clientes reales y proyectos propios construidos para
+          demostrar arquitectura completa, no solo interfaz.
+        </p>
+
+        <div class="projects" data-reveal>
+          <div class="project">
+            <div class="pmeta">
+              <span class="pstatus">PROYECTO PERSONAL</span>
+              <div class="pname">TRACKON</div>
+              <div class="prole">Dashboard de logística — fullstack</div>
+            </div>
+            <div>
+              <p class="pdesc">
+                Dashboard de logística con backend propio: controladores REST,
+                autenticación JWT, middleware de seguridad y esquema de base de
+                datos con Prisma. El frontend en React se migró de datos
+                simulados a consumo de API real mediante una capa de servicios
+                centralizada y contexto de autenticación.
+              </p>
+              <div class="pill-row">
+                <span class="pill">React</span
+                ><span class="pill">TypeScript</span
+                ><span class="pill">Node/Express</span
+                ><span class="pill">Prisma</span
+                ><span class="pill">PostgreSQL (Neon)</span
+                ><span class="pill">Railway</span
+                ><span class="pill">Vercel</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="pmeta">
+              <span class="pstatus">EN DESARROLLO</span>
+              <div class="pname">Health Samay</div>
+              <div class="prole">SaaS para nutriólogos</div>
+            </div>
+            <div>
+              <p class="pdesc">
+                Plataforma SaaS para profesionales de la nutrición, inspirada en
+                productos como Avena Health. Arquitectura de dos repositorios —
+                frontend Next.js y backend Node/Express/Prisma — con
+                autenticación gestionada vía Clerk.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Next.js</span
+                ><span class="pill">Node/Express</span
+                ><span class="pill">Prisma</span
+                ><span class="pill">PostgreSQL</span
+                ><span class="pill">Clerk</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="pmeta">
+              <span class="pstatus">NEGOCIO PROPIO</span>
+              <div class="pname">ALDACODE</div>
+              <div class="prole">Sitio de marca / estudio</div>
+            </div>
+            <div>
+              <p class="pdesc">
+                Sitio de mi propio estudio de desarrollo, migrado de HTML/CSS/JS
+                a Next.js + TypeScript + Tailwind v4, con arquitectura de
+                componentes, hooks personalizados y archivos de datos tipados.
+                Desplegado en Vercel con dominio propio.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Next.js</span
+                ><span class="pill">TypeScript</span
+                ><span class="pill">Tailwind v4</span
+                ><span class="pill">Vercel</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="pmeta">
+              <span class="pstatus">CLIENTE</span>
+              <div class="pname">SAMAY Nutrición</div>
+              <div class="prole">Landing page</div>
+            </div>
+            <div>
+              <p class="pdesc">
+                Landing page para una nutrióloga, cubriendo el ciclo completo:
+                desarrollo en HTML/CSS/JS, despliegue en Netlify, dominio
+                personalizado vía Namecheap y configuración de Google Search
+                Console para SEO.
+              </p>
+              <div class="pill-row">
+                <span class="pill">HTML/CSS/JS</span
+                ><span class="pill">Netlify</span><span class="pill">SEO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="pmeta">
+              <span class="pstatus">CLIENTE</span>
+              <div class="pname">EROS Ingeniería</div>
+              <div class="prole">Landing page — topografía</div>
+            </div>
+            <div>
+              <p class="pdesc">
+                Landing page para un despacho de ingeniería topográfica, con
+                scroll suave (Lenis), animaciones activadas por scroll mediante
+                IntersectionObserver y despliegue continuo en Vercel vía Git.
+              </p>
+              <div class="pill-row">
+                <span class="pill">HTML/CSS/JS</span
+                ><span class="pill">Lenis</span
+                ><span class="pill">IntersectionObserver</span
+                ><span class="pill">Vercel</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="pmeta">
+              <span class="pstatus">EN DESARROLLO</span>
+              <div class="pname">PriceTracker</div>
+              <div class="prole">Web scraping + API en Python</div>
+            </div>
+            <div>
+              <p class="pdesc">
+                Herramienta de seguimiento de precios construida en Python:
+                scraping con BeautifulSoup y Playwright, API con FastAPI y
+                frontend en Next.js. Pensado como pieza de portafolio para
+                mostrar mis habilidades certificadas en Python (PCEP) junto al
+                desarrollo frontend.
+              </p>
+              <div class="pill-row">
+                <span class="pill">Python</span><span class="pill">FastAPI</span
+                ><span class="pill">Playwright</span
+                ><span class="pill">Next.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tag-close">&lt;/projects&gt;</div>
+      </div>
+    </section>
+
+    <section class="section" id="path">
+      <div class="wrap">
+        <div class="tag-open">&lt;path&gt;</div>
+        <h2 class="heading">Trayectoria</h2>
+        <p class="lead">Cómo llegué hasta aquí.</p>
+
+        <div class="path" data-reveal>
+          <div class="path-item">
+            <span class="pdate">Actualidad</span>
+            <div class="ptitle">
+              Fundador & Desarrollador Fullstack — ALDACODE
+            </div>
+            <p>
+              Desarrollo freelance para clientes (landings, sitios de marca,
+              dashboards) y proyectos propios de producto, mientras curso
+              Ingeniería en Sistemas.
+            </p>
+          </div>
+          <div class="path-item">
+            <span class="pdate">Trayecto reciente</span>
+            <div class="ptitle">De HTML/CSS/JS a arquitectura fullstack</div>
+            <p>
+              Pasé de construir landings estáticas para clientes a diseñar
+              backends propios (REST, JWT, Prisma) y migrar frontends de datos
+              simulados a APIs reales en producción.
+            </p>
+          </div>
+          <div class="path-item">
+            <span class="pdate">Fundamentos</span>
+            <div class="ptitle">React, TypeScript y Python</div>
+            <p>
+              Aprendí React desde cero hasta Context API, React Router y PWA;
+              TypeScript a través de proyectos prácticos; y certifiqué mis bases
+              en Python (PCEP).
+            </p>
+          </div>
+        </div>
+        <div class="tag-close">&lt;/path&gt;</div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="wrap">
+        <div class="tag-open">&lt;contact&gt;</div>
+        <h2>¿Construimos algo juntos?</h2>
+        <p class="lead">
+          Abierto a posiciones fullstack, frontend o cualquier rol de desarrollo
+          web — remoto, híbrido o presencial en Estado de México y Ciudad de México.
+        </p>
+        <div class="contact-row">
+          <a href="mailto:aldayr935@gmail.com" class="btn primary"
+            >aldayr935@gmail.com</a
+          >
+          <a
+            href="https://github.com/aldayr935-ux"
+            class="btn ghost"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="www.linkedin.com/in/omar-aldayr-garcía-hernández-543563378 "
+            class="btn ghost"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://aldacode.com" class="btn ghost" target="_blank"
+            >aldacode.com</a
+          >
+        </div>
+        <div class="tag-close">&lt;/contact&gt;</div>
+        <div class="foot-bottom">
+          <span>© 2026 Aldayr — ALDACODE</span>
+          <span>Construido con HTML, CSS y JS puro</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
