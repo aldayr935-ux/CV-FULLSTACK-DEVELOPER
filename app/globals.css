@@ -307,6 +307,7 @@ header.hero {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6);
+  width: 100%;
 }
 .terminal .bar {
   display: flex;
@@ -360,14 +361,15 @@ header.hero {
   overflow: hidden;
   min-height: 0;
 }
-.terminal-body > pre {
-  overflow: hidden;
-  min-height: 0;
+.terminal-body-inner pre {
   padding: 20px;
   font-family: var(--font-mono), monospace;
   font-size: 13.5px;
   color: #c9cdd9;
   white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
 }
 .terminal .k {
   color: #7aa2f7;
@@ -432,6 +434,7 @@ header.hero {
   z-index: 1;
   padding: 110px 0;
   border-top: 1px solid var(--line);
+  overflow-x: hidden;
 }
 .tag-open,
 .tag-close {
@@ -473,6 +476,7 @@ h2.heading {
   height: 420px;
   perspective: 1200px;
   touch-action: pan-y;
+  overflow: hidden;
 }
 .stack-card-wheel {
   position: absolute;
@@ -887,4 +891,11 @@ footer p.lead {
 [data-reveal].in {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+  .terminal-body-inner pre {
+    font-size: 11px;
+    padding: 14px;
+  }
 }

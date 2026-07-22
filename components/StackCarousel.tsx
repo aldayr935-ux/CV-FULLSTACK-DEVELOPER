@@ -36,8 +36,20 @@ export default function StackCarousel() {
 
   useEffect(() => {
     startAuto();
+
+    // Pausa el auto-rotate mientras el usuario hace scroll
+    let scrollTimer: ReturnType<typeof setTimeout>;
+    const onScroll = () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => startAuto(), 1500);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
+      window.removeEventListener("scroll", onScroll);
+      clearTimeout(scrollTimer);
     };
   }, []);
 
