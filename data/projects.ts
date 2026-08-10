@@ -60,7 +60,7 @@ export const projects: Project[] = [
     name: "BURG N' RIBS",
     role: "Landing Page + menú digital",
     description:
-      "Sitio web para restaurante con animaciones Scroll Reveal, página de menú digital con QR",
+      "Sitio web para restaurante con animaciones Scroll Reveal, página de menú digital con QR, montado en Javascript puro.",
     pills: ["HTML/CSS/JS", "Scroll Reveal", "Netlify"]
   }
 ];
