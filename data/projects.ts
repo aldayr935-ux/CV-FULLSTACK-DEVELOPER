@@ -48,12 +48,12 @@ export const projects: Project[] = [
     pills: ["HTML/CSS/JS", "Lenis", "IntersectionObserver", "Vercel"],
   },
   {
-    status: "EN DESARROLLO",
-    name: "PriceTracker",
-    role: "Web scraping + API en Python",
+    status: "PROYECTO PERSONAL",
+    name: "To-Do App",
+    role: "Progressive Web App",
     description:
-      "Herramienta de seguimiento de precios construida en Python: scraping con BeautifulSoup y Playwright, API con FastAPI y frontend en Next.js. Pensado como pieza de portafolio para mostrar mis habilidades certificadas en Python (PCEP) junto al desarrollo frontend.",
-    pills: ["Python", "FastAPI", "Playwright", "Next.js"],
+      "Aplicación de lista de tareas construida con React + Vite y TailwindCSS, PWA con VitePWA Plugin. Multiples listas almacenadas localmente Y menú de ajustes para cambiar la apariencia de la UI",
+    pills: ["React", "Vite", "Tailwind v4", "Vercel"],
   },
   {
     status: "CLIENTE",
