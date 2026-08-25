@@ -16,6 +16,8 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 body {
   background: var(--bg-deep);
@@ -23,6 +25,7 @@ body {
   font-family: var(--font-sans), sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  max-width: 100%;
 }
 ::selection {
   background: var(--gold);
