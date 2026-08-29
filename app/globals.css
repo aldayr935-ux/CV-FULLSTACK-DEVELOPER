@@ -678,6 +678,10 @@ h2.heading {
   color: var(--text-muted);
   background: var(--bg-deep);
 }
+.project-link-btn {
+  margin-top: 18px;
+  display: inline-flex;
+}
 /* PATH — reveal automático al entrar al viewport */
 .path-section {
   padding: 110px 0;

@@ -51,6 +51,16 @@ export default function ProjectsAccordion() {
                         </span>
                       ))}
                     </div>
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn ghost project-link-btn"
+                      >
+                        Ver proyecto →
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

@@ -24,8 +24,7 @@ export default function Hero() {
           web de extremo a <span className="accent">extremo</span>.
         </h1>
         <p className="sub">
-          Soy <strong>Aldayr</strong>, desarrollador Fullstack y estudiante de
-          Ingeniería en Sistemas. Diseño, construyo y despliego aplicaciones
+          Soy <strong>Aldayr</strong>, desarrollador Fullstack e Ingeniero en Sistemas Computacionales. Diseño, construyo y despliego aplicaciones
           completas — del esquema de base de datos a la interfaz que usa la
           gente.
         </p>
@@ -77,14 +76,14 @@ export default function Hero() {
             Ver proyectos →
           </a>
           <a
-            href="/cv/CV OMAR ALDAYR WEB DEVELOPER 2026.pdf"
+            href="public/cv/CV Omar Aldayr Garcia 2026.pdf"
             className="btn ghost"
             download
           >
             Descargar CV (ES)
           </a>
           <a
-            href="/cv/RESUME OMAR ALDAYR WEB DEVELOPER 2026.pdf"
+            href="public/cv/Resume Omar Aldayr Garcia 2026.pdf"
             className="btn ghost"
             download
           >
