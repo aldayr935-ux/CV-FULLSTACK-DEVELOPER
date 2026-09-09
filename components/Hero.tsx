@@ -54,7 +54,7 @@ export default function Hero() {
                 <span className="s">&quot;Fullstack Web Developer&quot;</span>,
                 {"\n  "}
                 <span className="c">stack:</span> [<span className="s">&quot;Next.js&quot;</span>,{" "}
-                <span className="s">&quot;TypeScript&quot;</span>, <span className="s">&quot;Node.js&quot;</span>,{" "}
+                <span className="s">&quot;TypeScript&quot;</span>, <span className="s"><br/>&quot;Node.js&quot;</span>,{" "}
                 <span className="s">&quot;PostgreSQL&quot;</span>],
                 {"\n  "}
                 <span className="c">studio:</span> <span className="s">&quot;ALDACODE&quot;</span>,
