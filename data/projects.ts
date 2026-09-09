@@ -69,5 +69,14 @@ export const projects: Project[] = [
       "Sitio web para restaurante con animaciones Scroll Reveal, página de menú digital con QR, montado en Javascript puro.",
     pills: ["HTML/CSS/JS", "Scroll Reveal", "Netlify"],
     link: "https://burgnribs.netlify.app/",
+  },
+  {
+    status: "PROYECTO PERSONAL",
+    name: "Search Voice Bot",
+    role: "Bot Asistente de búsqueda por voz",
+    description:
+      "Programa de Python de Asistente de búqeuda por voz en Google.",
+    pills: ["Pyton"],
+    link: "https://github.com/aldayr935-ux/searchVoiceBot",
   }
 ];
