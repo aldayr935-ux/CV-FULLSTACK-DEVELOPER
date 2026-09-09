@@ -9,7 +9,7 @@ export const path: PathItem[] = [
     date: "Actualidad",
     title: "Fundador & Desarrollador Fullstack — ALDACODE",
     description:
-      "Desarrollo freelance para clientes (landings, sitios de marca, dashboards) y proyectos propios de producto, mientras curso Ingeniería en Sistemas.",
+      "Desarrollo freelance para clientes (landings, sitios de marca, dashboards, apps móviles) y proyectos propios de producto.",
   },
   {
     date: "Trayecto reciente",
