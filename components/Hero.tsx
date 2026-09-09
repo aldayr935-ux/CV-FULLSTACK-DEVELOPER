@@ -5,8 +5,6 @@ import { useEffect, useState } from "react";
 export default function Hero() {
   const [minimized, setMinimized] = useState(true);
 
-  // Al montar, la terminal arranca oculta y se despliega sola con una
-  // pequeña animación de entrada.
   useEffect(() => {
     const t = setTimeout(() => setMinimized(false), 350);
     return () => clearTimeout(t);
@@ -76,14 +74,14 @@ export default function Hero() {
             Ver proyectos →
           </a>
           <a
-            href="public/cv/CV Omar Aldayr Garcia 2026.pdf"
+            href="/CV 2026 Omar Aldayr García.pdf"
             className="btn ghost"
             download
           >
             Descargar CV (ES)
           </a>
           <a
-            href="public/cv/Resume Omar Aldayr Garcia 2026.pdf"
+            href="/2026 Resume Omar Aldayr García.pdf"
             className="btn ghost"
             download
           >
